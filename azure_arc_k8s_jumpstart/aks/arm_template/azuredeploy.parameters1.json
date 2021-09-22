@@ -3,25 +3,25 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "clusterName": {
-            "value": "<AKS cluster name>"
+            "value": "agatawsarcdemo"
         },
         "dnsPrefix": {
-            "value": "<AKS unique DNS prefix>"
+            "value": "agatademocluster"
         },        
          "linuxAdminUsername": {
-            "value": "<OS Username>"
+            "value": "agataadmin"
         },
         "sshRSAPublicKey": {
-            "value": "<Your ssh public key>"
+            "value": "AgataSSHKey1"
         },
         "servicePrincipalClientId": {
-            "value": "<Your Azure service principal name>"
+            "value": "http://AzureArcK8s"
         },
         "servicePrincipalClientSecret": {
-            "value": "<Your Azure service principal password>"
+            "value": "p@ssword2021"
         },
         "kubernetesVersion": {
-            "value": "<Kubernetes Version, e.g. 1.18.2>"
+            "value": "1.19.11"
         }
     }
 }
