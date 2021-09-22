@@ -15,7 +15,7 @@
             "value": "AgataSSHKey1"
         },
         "servicePrincipalClientId": {
-            "value": "http://AzureArcK8s"
+            "value": "AzureArcK8s"
         },
         "servicePrincipalClientSecret": {
             "value": "p@ssword2021"
